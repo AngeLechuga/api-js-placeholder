@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>PokeApi</title>
 </head>
+
 <body>
-    <div id="app"></div>
-    <script type="module" src="api.js" ></script>
+    <header>
+        <h1>Pokemon API</h1>
+    </header>
+
+    <div class="contenedor-texto">
+        <p class="contenedor-texto_parrafo">
+            Búsca tu pokemón para ver sus habilidades
+        </p>
+        <form class="contenedor-texto_form" action="">
+            <input type="text" placeholder="Nombre del Pokémon" id="inputPokemon">
+            <button type="submit" >Buscar</button>
+        </form>
+    </div>
+    <div id="app">
+        
+    </div>
+    <script type="module" src="api.js"></script>
 </body>
+
 </html>

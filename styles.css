@@ -1,0 +1,64 @@
+/* Custom Styles */
+:root {
+    --mainfont: "Fredoka", sans-serif;
+    --negro: #000000dc;
+    --amarillo : #ffd900;
+    --blanco: #ffffff;
+    --azul: #0037ffd7;
+    --rojo: #ff0000;
+}
+/* Global Styles */
+html {
+    font-size: 65.2%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--mainfont);
+    background-color: var(--negro);
+}
+
+main {
+    margin: 2rem;
+}
+
+p {
+    color: var(--amarillo);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,h2,h3 {
+    color: var(--amarillo);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#app {
+    margin: 2rem 2rem 2rem 2rem;
+    border-style: dashed;
+    color: var(--amarillo);
+}
+
+.pokemon-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
